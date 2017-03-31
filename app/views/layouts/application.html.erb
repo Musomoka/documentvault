@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  
+  <%= csrf_meta_tags %>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+</head>
+
+<body>
+	<div class ='container'>
+  <%= render "partials/main_nav"%>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="container-fluid">
+				  <%= yield %>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</class>
+
+</body>
+</html>

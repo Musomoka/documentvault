@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  tax_number: MyString
+  description: MyText
+  periods: 1
+  start_date: 2017-03-23
+
+two:
+  name: MyString
+  tax_number: MyString
+  description: MyText
+  periods: 1
+  start_date: 2017-03-23

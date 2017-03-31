@@ -1,0 +1,26 @@
+<div class="container">
+<div class ="row">
+    
+    <%= link_to 'View', @document,class: "btn btn-primary" %>
+    <%= link_to 'Edit', @document_edit_url,class: "btn btn-primary" %>
+    <%= link_to 'Edit', @document_destroy_url, class: "btn btn-primary" %>
+   
+    </div>
+    <div class ="row">
+     <div class="col-md-4">
+         
+        <h3><%= @document.name %></h3>
+ 
+         <div class="col-md-4">
+            <%= image_tag @document.image.url(:medium), class:"img-rounded"%>
+            
+        </div>
+    </div>
+    <div class ="row">
+        <date><%= @document.per_from %></date>
+        <date><%= @document.per_to %></date>
+        <p><%= @document.description %></p>
+    
+    </div>
+</div>
+</div>

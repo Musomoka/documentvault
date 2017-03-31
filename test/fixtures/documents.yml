@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  image: MyString
+  per_from: 2017-03-16
+  per_to: 2017-03-16
+
+two:
+  name: MyString
+  description: MyText
+  image: MyString
+  per_from: 2017-03-16
+  per_to: 2017-03-16

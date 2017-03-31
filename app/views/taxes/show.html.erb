@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tax.name %>
+</p>
+
+<p>
+  <strong>Tax number:</strong>
+  <%= @tax.tax_number %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @tax.description %>
+</p>
+
+<p>
+  <strong>Periods:</strong>
+  <%= @tax.periods %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @tax.start_date %>
+</p>
+
+<%= link_to 'Edit', edit_tax_path(@tax) %> |
+<%= link_to 'Back', taxes_path %>
